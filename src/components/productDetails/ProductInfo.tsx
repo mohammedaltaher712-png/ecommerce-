@@ -1,5 +1,4 @@
 import { FaRegStarHalfStroke, FaShare, FaStar } from "react-icons/fa6";
-import type { ProductType } from "../../Api/ProductApi";
 import { FaCheckCircle, FaHeart, FaRegHeart } from "react-icons/fa";
 import { TiShoppingCart } from "react-icons/ti";
 import type { AppDispatch, RootState } from "../../store";
@@ -13,6 +12,7 @@ import {
   addToFavorites,
   removeFromFavorites,
 } from "../../features/favorites/favoritesSlice";
+import type { ProductType } from "../../Types/Types";
 
 type Props = {
   product: ProductType;

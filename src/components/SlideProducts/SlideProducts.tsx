@@ -2,13 +2,13 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { type ProductType } from "../../Api/ProductApi";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
 import Product from "./Product";
 import { useGetCategoryByIdQuery } from "../../Api/CategoryApi";
 import Loading from "../../Loading";
+import type { ProductType } from "../../Types/Types";
 type Props = {
   product: ProductType;
 };

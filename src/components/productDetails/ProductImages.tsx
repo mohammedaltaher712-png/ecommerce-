@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { ProductType } from "../../Api/ProductApi";
+import type { ProductType } from "../../Types/Types";
 
 const IMAGE_URL = import.meta.env.VITE_IMAGE_URL;
 

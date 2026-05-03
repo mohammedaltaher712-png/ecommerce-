@@ -1,5 +1,4 @@
 import { Link, useNavigate } from "react-router";
-import type { ProductType } from "../../Api/ProductApi";
 import { FaCartArrowDown, FaHeart, FaRegHeart, FaStar } from "react-icons/fa";
 import { FaRegStarHalfStroke } from "react-icons/fa6";
 import { toggleCartItem } from "../../features/cart/cartSlice";
@@ -10,6 +9,7 @@ import {
   removeFromFavorites,
 } from "../../features/favorites/favoritesSlice";
 import toast from "react-hot-toast";
+import type { ProductType } from "../../Types/Types";
 
 const IMAGE_URL = import.meta.env.VITE_IMAGE_URL;
 
